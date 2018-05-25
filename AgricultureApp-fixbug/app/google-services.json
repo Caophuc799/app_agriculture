@@ -1,0 +1,71 @@
+{
+  "project_info": {
+    "project_number": "990329416145",
+    "firebase_url": "https://agricultureapp-1cdda.firebaseio.com",
+    "project_id": "agricultureapp-1cdda",
+    "storage_bucket": "agricultureapp-1cdda.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:990329416145:android:5a001f2860880b92",
+        "android_client_info": {
+          "package_name": "vn.edu.hcmut.agricultureapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "990329416145-158qna83mn0iola97qi7q6s7hcjrjfpm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "vn.edu.hcmut.agricultureapp",
+            "certificate_hash": "3c8aa85b9a8992e378a2f7a4aee0be2f7ef7a2f2"
+          }
+        },
+        {
+          "client_id": "990329416145-9mkh20honodtmfqiape468lonblv39sm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "vn.edu.hcmut.agricultureapp",
+            "certificate_hash": "66b8a1703b1464774e0e8b121d97c091d98eb4d7"
+          }
+        },
+        {
+          "client_id": "990329416145-sqv7kvp4fhje8bl36l1jkc9p1b1h9tak.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "vn.edu.hcmut.agricultureapp",
+            "certificate_hash": "fb13fae99e58086ea9e20ba960b3c4245e0378c4"
+          }
+        },
+        {
+          "client_id": "990329416145-gt6gdc6gbjv7iapppp9nv6o201t4s9kt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrmjdFYEwxLkEnewOQgf_GQxzOrqXRm0E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "990329416145-gt6gdc6gbjv7iapppp9nv6o201t4s9kt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">AgricultureApp</string>
+    <string name="facebook_app_id">243925296182675</string>
+    <string name="fb_login_protocol_scheme">fb243925296182675</string>
+
+
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="change_password">Thiết lập mật khẩu</string>
+    <string name="not_establish">(Chưa thiết lập)</string>
+    <string name="require_password">Vui lòng nhập mật khẩu mới:</string>
+    <string name="require_email"> Vui lòng nhập nhập địa chỉ email:</string>
+    <string name="require_verify_code">Vui lòng nhập mã xác nhận</string>
+    <string name="confirm_code"> Mã xác nhận</string>
+    <string name="confirm">Xác nhận </string>
+    <string name="request_password">Lấy mã xác nhận</string>
+    <string name="refresh_password"> Thay đổi mật khẩu</string>
+    <string name="facebook">FACEBOOK</string>
+    <string name="google">GOOGLE</string>
+
+    <string name="user_name"> "Tên tài khoản"</string>
+    <string name="fb_login">"Đăng nhập với facebook"</string>
+    <string name="google_login">"Đăng nhập với google"</string>
+    <string name="email">"Email"</string>
+    <string name="password"> "Mật khẩu"</string>
+    <string name="rewrite_password">"Nhập lại mật khẩu"</string>
+    <string name="login">"Đăng nhập"</string>
+    <string name="or"> "Hoặc" </string>
+    <string name="full_name">"Họ và Tên"</string>
+    <string name="phone_number"> "Số điện thoại"</string>
+    <string name="register"> "Đăng ký"</string>
+    <string name="date_of_birth"> "Ngày sinh" </string>
+    <string name="home"> "Trang chủ"</string>
+    <string name="my_account">"Quản lý tài khoản"</string>
+    <string name="notification">"Thông báo"</string>
+    <string name="not_know"> "Not know"</string>
+    <string name="save_change">"Lưu thay đổi"</string>
+    <string name="help">"TRỢ GIÚP"</string>
+    <string name="help_phone">"SĐT: 0123456789</string>
+    <string name="help_mail">"Email: bestmarket@gmail.com"</string>
+    <string name="forgot_password">"Quên mật khẩu"</string>
+
+    <string name="title_activity_sign_in">SignInActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="sex">"Giới tính"</string>
+    <string-array name="sex_picker_array">
+        <item name="Male">Nam</item>
+        <item name="Female">Nữ</item>
+        <item name="Unknown">Không xác định</item>
+    </string-array>
+    <string name="loading">Đang tải…</string>
+    <string name="logout"> Đăng xuất</string>
+    <string name="please_check_mail">Vui lòng kiểm tra email và đăng nhập lại</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_example">ExampleActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+
+    <string name="radio_farmer">Nông dân</string>
+    <string name="radio_engineer">Kĩ sư</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

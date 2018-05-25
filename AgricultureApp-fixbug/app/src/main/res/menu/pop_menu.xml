@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/it_BRVT"
+        android:title="Bà Rịa - Vũng Tàu"></item>
+    <item android:id="@+id/it_BG"
+        android:title="Bắc Giang"></item>
+    <item android:id="@+id/it_BN"
+        android:title="Bắc Ninh"></item>
+    <item android:id="@+id/it_BTRE"
+        android:title="Bến Tre"></item>
+    <item android:id="@+id/it_BDUONG"
+        android:title="Bình Dương"></item>
+    <item android:id="@+id/it_CM"
+        android:title="Cà Mau"></item>
+    <item android:id="@+id/it_CB"
+        android:title="Cao Bằng"></item>
+
+
+    <item android:id="@+id/it_HAG"
+        android:title="Hà Giang"></item>
+
+    <item android:id="@+id/it_HT"
+        android:title="Hà Tĩnh"></item>
+    <item android:id="@+id/it_HD"
+        android:title="Hải Dương"></item>
+
+    <item android:id="@+id/it_HB"
+        android:title="Hòa Bình"></item>
+
+    <item android:id="@+id/it_LCHAU"
+        android:title="Lai Châu"></item>
+
+    <item android:id="@+id/it_LS"
+        android:title="Lạng Sơn"></item>
+    <item android:id="@+id/it_LCAI"
+        android:title="Lào Cai"></item>
+    <item android:id="@+id/it_ND"
+        android:title="Nam Định"></item>
+
+    <item android:id="@+id/it_NB"
+        android:title="Ninh Bình"></item>
+
+    <item android:id="@+id/it_PT"
+        android:title="Phú Thọ"></item>
+
+
+    <item android:id="@+id/it_QNGAI"
+        android:title="Quảng Ngãi"></item>
+
+    <item android:id="@+id/it_ST"
+        android:title="Sóc Trăng"></item>
+    <item android:id="@+id/it_SL"
+        android:title="Sơn La"></item>
+    <item android:id="@+id/it_TB"
+        android:title="Thái Bình"></item>
+
+    <item android:id="@+id/it_TH"
+        android:title="Thanh Hóa"></item>
+    <item android:id="@+id/it_TV"
+        android:title="Trà Vinh"></item>
+    <item android:id="@+id/it_TQ"
+        android:title="Tuyên Quang"></item>
+    <item android:id="@+id/it_VL"
+        android:title="Vĩnh Long"></item>
+
+
+
+
+    <item android:id="@+id/it_CT"
+        android:title="Cần Thơ"></item>
+    <item android:id="@+id/it_DNANG"
+        android:title="Đà Nẵng"></item>
+    <item android:id="@+id/it_HP"
+        android:title="Hải Phòng"></item>
+    <item android:id="@+id/it_HNOI"
+        android:title="Hà Nội"></item>
+    <item android:id="@+id/it_HCM"
+        android:title="Sai gòn"></item>
+</menu>

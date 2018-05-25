@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/colorBackground"
+    tools:context="vn.edu.hcmut.agricultureapp.new_feed.StatusPostingActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chuyên mục:"/>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:text="Tiêu đề:"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:id="@+id/title_edit_text"
+        android:textColor="@color/primaryTextColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thắc mắc:"
+        />
+
+    <EditText
+        android:id="@+id/thac_mac_edit_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hình ảnh kèm theo:"/>
+
+    <ImageButton
+        android:id="@+id/add_image_button"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@color/colorBackground"
+        android:src="@drawable/ic_photo_camera_black_24dp"
+        />
+
+    <Button
+        android:id="@+id/posting_button"
+        android:layout_marginTop="16dp"
+        android:text="Đăng bài"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primaryColor"/>
+
+</LinearLayout>

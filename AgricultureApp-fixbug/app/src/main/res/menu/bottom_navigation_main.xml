@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_home"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_home"
+        android:title="Home"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_weather"
+        android:enabled="true"
+        android:icon="@drawable/ic_weather"
+        android:title="Weather"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_qa"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_question"
+        android:title="QA"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_account"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_account"
+        android:title="Account"
+        app:showAsAction="ifRoom"/>
+
+</menu>

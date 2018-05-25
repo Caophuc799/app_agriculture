@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_height="match_parent"
+    tools:context="vn.edu.hcmut.agricultureapp.myAccount.EditPhoneNumberActivity">
+    <EditText
+        android:textColor="@android:color/black"
+        android:id="@+id/phone_number_edit_text"
+        android:layout_width="match_parent"
+        android:hint="@string/phone_number"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/save_phone_button"
+        android:layout_marginTop="16dp"
+        android:background="@color/primaryColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/save_change"/>
+</LinearLayout>

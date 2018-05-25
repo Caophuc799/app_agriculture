@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white"
+    tools:context="vn.edu.hcmut.agricultureapp.HomeActivity.FragmentMenuNews">
+
+    <Button
+        android:layout_marginTop="16dp"
+        android:id="@+id/btnChannuoi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primaryColor"
+        android:text="Kĩ thuật chăn nuôi"/>
+
+    <Button
+        android:id="@+id/btnTrongtrot"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/secondaryColor"
+        android:text="Kĩ thuật trồng trọt"/>
+
+    <Button
+        android:id="@+id/btnThuysan"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00ff00"
+        android:text="Kĩ thuật thủy sản"/>
+
+    <Button
+        android:id="@+id/btnLamnghiep"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff0000"
+        android:text="Kĩ thuật lâm nghiêp"/>
+</LinearLayout>

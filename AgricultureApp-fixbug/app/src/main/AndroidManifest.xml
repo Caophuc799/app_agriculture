@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="vn.edu.hcmut.agricultureapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_chinh"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name=".login.LoginActivity"
+            android:theme="@style/AppThemeNoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- <activity android:name=".LoginActivity"></activity> -->
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".login.ForgotPassword_1Activity"
+            android:label="@string/forgot_password"
+            android:parentActivityName=".login.LoginActivity"
+            android:theme="@style/AppThemeNoActionBar" />
+        <activity
+            android:name=".login.ForgotPassword_2Activity"
+            android:label="@string/forgot_password"
+            android:parentActivityName=".login.ForgotPassword_1Activity"
+            android:theme="@style/AppThemeNoActionBar" />
+        <activity
+            android:name=".myAccount.EditInfoActivity"
+            android:label="@string/my_account"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".myAccount.EditNameActivity"
+            android:label="Thay đổi tên"
+            android:parentActivityName=".myAccount.EditInfoActivity" />
+        <activity
+            android:name=".myAccount.EditEmailActivity"
+            android:label="Đổi email"
+            android:parentActivityName=".myAccount.EditInfoActivity" />
+        <activity
+            android:name=".myAccount.EditPhoneNumberActivity"
+            android:label="Đổi số điện thoại"
+            android:parentActivityName=".myAccount.EditInfoActivity" />
+        <activity
+            android:name=".myAccount.EditPasswordActivity"
+            android:label="Đổi số điện thoại"
+            android:parentActivityName=".myAccount.EditInfoActivity" />
+        <activity android:name=".HomeActivity.HomeActivity" />
+        <activity android:name=".new_feed.NewFeedActivity"
+            android:label="Bài đăng"
+            android:parentActivityName=".new_feed.QAActivity"
+            />
+        <activity android:name=".new_feed.FullStatusActivity"
+            android:label="Bài đăng"
+            android:parentActivityName=".new_feed.NewFeedActivity"
+            />
+        <activity android:name=".new_feed.StatusPostingActivity"
+            android:label="Đăng hỏi đáp"
+            android:parentActivityName=".new_feed.QAActivity"/>
+        <activity android:name=".new_feed.QAActivity"
+            android:parentActivityName=".MainActivity"
+            android:label="Hỏi đáp"
+            />
+
+    </application>
+
+</manifest>

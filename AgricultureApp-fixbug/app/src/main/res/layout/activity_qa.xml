@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white"
+    tools:context="vn.edu.hcmut.agricultureapp.new_feed.QAActivity">
+
+    <Button
+        android:layout_marginTop="16dp"
+        android:id="@+id/trong_trot_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primaryColor"
+        android:text="Cây trồng"/>
+
+    <Button
+        android:id="@+id/vat_nuoi_button"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/secondaryColor"
+        android:text="Vật nuôi"/>
+
+    <Button
+        android:id="@+id/thuy_san_button"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00ff00"
+        android:text="Thủy sản"/>
+
+    <Button
+        android:id="@+id/question_answer_button"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff0000"
+        android:text="Đăng hỏi đáp"/>
+</LinearLayout>
